@@ -16,7 +16,6 @@ public class App
         //print something to console
         System.out.println( "Hello Everyone" );
         //get result of method
-        printMessage();
         //changing value of a variable declared
         hello = printMessage();
         System.out.println(hello);
