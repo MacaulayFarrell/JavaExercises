@@ -2,9 +2,14 @@ package com.qa;
 
 public class App 
 {
-    public static void printMessage() {
+    public static void printMessage()
+    {
         String message = "Hello World!";
         System.out.println(message);
+    }
+    public static String sayHello()
+    {
+        return "Hello there!";
     }
 
     public static void main( String[] args )
@@ -16,7 +21,7 @@ public class App
         System.out.println( "Hello Everyone" );
         //get result of method
         printMessage();
-
+        System.out.println(sayHello());
 
     }
 
