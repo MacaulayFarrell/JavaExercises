@@ -2,10 +2,9 @@ package com.qa;
 
 public class App 
 {
-    public static String printMessage()
-    {
-        String message = "Using method";
-        return message;
+    public static void printMessage() {
+        String message = "Hello World!";
+        System.out.println(message);
     }
 
     public static void main( String[] args )
@@ -16,9 +15,8 @@ public class App
         //print something to console
         System.out.println( "Hello Everyone" );
         //get result of method
-        //changing value of a variable declared
-        hello = printMessage();
-        System.out.println(hello);
+        printMessage();
+
 
     }
 
