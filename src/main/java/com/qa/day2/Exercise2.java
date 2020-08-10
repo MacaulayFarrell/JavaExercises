@@ -1,6 +1,7 @@
 package com.qa.day2;
 
 public class Exercise2 {
+    //conditionals exercise 1
     public static int num1 = 5;
     public static int num2 = 5;
     public static boolean state = true;

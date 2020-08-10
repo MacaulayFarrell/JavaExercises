@@ -2,6 +2,7 @@ package com.qa.day2;
 
 
 public class Exercise1 {
+    //calculator exercise
     public static double num1 = 10;
     public static double num2 = 10;
 
