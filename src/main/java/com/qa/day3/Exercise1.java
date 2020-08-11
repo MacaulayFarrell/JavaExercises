@@ -1,5 +1,7 @@
 package com.qa.day3;
 
+import com.qa.day2.Person;
+
 public class Exercise1 {
 
     public static void loop1() {
@@ -16,6 +18,7 @@ public class Exercise1 {
 
     public static void main(String[] args) {
         loop1();
+
 
 
     }

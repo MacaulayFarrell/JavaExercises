@@ -1,8 +1,17 @@
 package com.qa.day2;
 
 public class Person {
-    private String firstName;
-    private String lastName;
+
+    public String firstName;
+    public String lastName;
+
+    /* A constructor example, can be generated
+    public Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+    */
+
     public String getFirstName() {
         return firstName;
     }

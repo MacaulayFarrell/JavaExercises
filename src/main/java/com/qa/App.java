@@ -1,6 +1,8 @@
 package com.qa;
 
-public class App 
+import com.qa.day2.Person;
+
+public class App
 {
     public static void printMessage()
     {
@@ -22,6 +24,10 @@ public class App
         //get result of method
         printMessage();
         System.out.println(sayHello());
+        Person Macaulay = new Person();
+        Macaulay.setFirstName("Macaulay");
+        Macaulay.setLastName("Farrell");
+        System.out.println(Macaulay.getFirstName() + Macaulay.getLastName());
 
     }
 
