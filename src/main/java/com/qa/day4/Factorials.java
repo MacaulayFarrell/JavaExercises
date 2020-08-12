@@ -7,7 +7,7 @@ public class Factorials {
         //given a number this will get the reverse of Factorial
         Scanner userInput = new Scanner(System.in); //scanners are used to get user input in console
         System.out.println("PLease enter a number: ");
-        int storeInput = userInput.nextInt(); //stores the scanner input from user, .nextInt(); means input must be an Int.
+        int storeInput = userInput.nextInt(); //stores the number the user gives, .nextInt(); means input must be an Int.
         int result = storeInput;
         for(int i = 2; result != i; i++) {
             result = result / i;
