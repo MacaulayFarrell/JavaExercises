@@ -2,15 +2,14 @@ package com.qa.day4;
 
 public class Person {
     private String name;
+    private int age;
+    private String jobTitle;
 
     public Person(String name, int age, String jobTitle) {
         this.name = name;
         this.age = age;
         this.jobTitle = jobTitle;
     }
-
-    private int age;
-    private String jobTitle;
 
     public String getName() {
         return name;
@@ -35,11 +34,13 @@ public class Person {
     public void setJobTitle(String jobTitle) {
         this.jobTitle = jobTitle;
     }
+
     @Override
     public String toString() {
-        return this.name + this.age + this.jobTitle;
+        return "Name: " + this.name + " Age: " +  this.age + " JobTitle: " + this.jobTitle;
 
     }
+
 
 
 }
