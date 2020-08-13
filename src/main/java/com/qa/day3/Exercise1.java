@@ -1,6 +1,5 @@
 package com.qa.day3;
 
-import com.qa.day2.Person;
 
 public class Exercise1 {
 
