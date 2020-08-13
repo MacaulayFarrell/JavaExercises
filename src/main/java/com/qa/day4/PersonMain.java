@@ -49,6 +49,7 @@ public class PersonMain {
             System.out.println("SEARCH FOR A PERSON");
             System.out.println("Please enter a Person's name to search for them: ");
             String personNameInput = personName.nextLine();
+
                 for(Person i : list) {
                     if(i.getName().equals(personNameInput)) {
                         System.out.println("Person found: ");
