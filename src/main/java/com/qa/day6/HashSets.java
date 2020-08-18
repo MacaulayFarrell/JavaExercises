@@ -16,6 +16,7 @@ public class HashSets {
         for(String i : hashSet) {
             System.out.println("Element: " + i);
         }
+        System.out.println("Does it contain element hello? " + hashSet.contains("welcome"));
 
 
     }
